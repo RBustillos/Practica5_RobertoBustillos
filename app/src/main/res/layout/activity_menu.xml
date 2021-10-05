@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grupo2"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/our_menu"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="50dp">
+
+        <Button
+            android:id="@+id/button_cold_drinks"
+            android:text="Cold drinks"
+            android:textColor="@color/dusty_white"
+            android:background="@drawable/first_gradient"
+            android:paddingHorizontal="20dp"
+            android:layout_marginRight="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:paddingVertical="20dp"
+            />
+
+        <Button
+            android:id="@+id/button_hot_drinks"
+            android:text="Hot drinks"
+            android:textColor="@color/dusty_white"
+            android:background="@drawable/second_gradient"
+            android:paddingHorizontal="20dp"
+            android:layout_marginRight="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:paddingVertical="20dp"
+            />
+
+        <Button
+            android:id="@+id/button_sweets"
+            android:text="Sweets"
+            android:textColor="@color/dusty_white"
+            android:background="@drawable/second_gradient"
+            android:paddingHorizontal="20dp"
+            android:layout_marginRight="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:paddingVertical="20dp"
+            />
+
+        <Button
+            android:id="@+id/button_salties"
+            android:text="Salties"
+            android:textColor="@color/dusty_white"
+            android:background="@drawable/second_gradient"
+            android:paddingHorizontal="20dp"
+            android:layout_marginRight="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:paddingVertical="20dp"
+            />
+
+        <Button
+            android:id="@+id/button_combos"
+            android:text="Combos"
+            android:textColor="@color/dusty_white"
+            android:background="@drawable/second_gradient"
+            android:paddingHorizontal="20dp"
+            android:layout_marginRight="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:paddingVertical="20dp"
+            />
+
+        <Button
+            android:id="@+id/button_customizable"
+            android:text="Custom"
+            android:textColor="@color/dusty_white"
+            android:background="@drawable/second_gradient"
+            android:paddingHorizontal="20dp"
+            android:layout_marginRight="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="15dp"
+            android:paddingVertical="20dp"
+            />
+    </GridLayout>
+</LinearLayout>
